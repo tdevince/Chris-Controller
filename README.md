@@ -20,4 +20,13 @@ to alarm repeately.  Finally, this requires more hoses at her end of the system,
 get caught when she tries to go to her walker or wheel chair.
 
 The following paper by Duke University (https://pmc.ncbi.nlm.nih.gov/articles/PMC10122499/) provides
-the basis for which this project is undertaken.  
+the basis for which this project is undertaken.  The project recommends that the controller at the 
+stationary concentrator communicate via Bluetooth to a iPhone.  This requires an app on the iPhone to
+controll the unit at the concentrator.  Since I'm not that well versed in creating applications for
+the Apple Store, I instead created a remote control unit (based upon the ESP32-S2 chip, using the
+ESP-NOW protocol).  This system uses the 2.4GHz WiFi frequency, but does not require connection
+to a local WiFi network.
+
+Since the paper that describes the hardware is a non-commercial license (CC BY-NC 3.0), the hardware
+portion of this project is non-commercial. However, the software code developed for this project
+is licensed under GNU General Pulbic License
