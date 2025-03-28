@@ -1,5 +1,4 @@
 # Chris-Controller
-Project to create a remote control system for oxygen concentrators
 
 This project is dedicated to my sister who is forced to live with a stationary oxygen concentrator 
 in her house. The unit is extremely loud and not placed in a part of the house she wants to sleep 
