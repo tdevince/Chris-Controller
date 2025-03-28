@@ -1,9 +1,9 @@
 # Chris-Controller
 Project to create a remote control system for oxygen concentrators
 
-This project is dedicated to my sister who is forced to live with a oxygen concentrator in her house.
-The unit is extremely loud and not placed in a part of the house she wants to sleep or be in.
-However, to change the oxygen flowrate, it is necessary for someone to do it at the machine.
+This project is dedicated to my sister who is forced to live with a stationary oxygen concentrator 
+in her house. The unit is extremely loud and not placed in a part of the house she wants to sleep 
+or be in.  However, to change the oxygen flowrate, it is necessary for someone to do it at the machine.
 For someone who is not mobile, this is a dificult task.  Further complicated by the fact that
 in order to get up, she must first increase her oxygen flowrate.  Not possible without a caretaker
 to go to the unit and manually change it.  
