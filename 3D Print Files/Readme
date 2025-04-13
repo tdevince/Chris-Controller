@@ -1,1 +1,5 @@
-
+The files here were printed on a Prusa3d MK4S printer.
+PETG was used for all parts, Urban Greay prusament was 
+used for the enclosures, black for text and Red for 
+the buttons.  
+Prusaslicer was used to create the binary gcode files.
