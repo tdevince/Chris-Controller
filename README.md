@@ -1,5 +1,5 @@
 # Chris-Controller
-[![Watch the video]](https://raw.githubusercontent.com/tdevince/Chris-Controller/main/media/ChrisController.MOV)
+[![Watch the video](https://raw.githubusercontent.com/tdevince/Chris-Controller/main/media/Thumb.jpg)](https://raw.githubusercontent.com/tdevince/Chris-Controller/main/media/ChrisController.mp4)
 
 This project is dedicated to my sister who is forced to live with a stationary oxygen concentrator 
 in her house. The unit is extremely loud and not placed in a part of the house she wants to sleep 
