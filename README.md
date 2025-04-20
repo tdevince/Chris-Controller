@@ -30,6 +30,16 @@ Since the paper that describes the hardware is a non-commercial license (CC BY-N
 portion of this project is non-commercial. However, the software code developed for this project
 is licensed under GNU General Pulbic License
 
+Repository Files:
+
+Files necessary for 3D printing are in the folder "3D Print Files".  The Fusion360 files used to create these files are in the folder titled "Fusion360"
+
+An instruction manual that describes the operation and use of the system is included as a *.pdf file in the "Instruciton Manual" folder.  
+
+The circuit was designed using KiCad 9.0.  The schematic as well as the PCB files are in the folder "KiCad 9.0 fiies".  This folder also has the gerber files, position files and BOM files necessary for ordering the PCB's from JLCPCB.com.
+
+Two other repositories are used for the code used to program the controller and the remote.  The links to these repositories are in the folders "Controller" and "Remote".
+
 Building the Controller:
 
 To build the Chris Controller, you will need to make the controller as well as the remote control.  The Controller consists of 3 3D printed gears, a mounting plate for the stepper motor and potentiometer and a base and cover.  The Fusion 360 files used to create the files for printing are included.  The parts were output to *stl files that were imported into PrusaSlicer.  The 3D input and output files are included in the Controller Directory.  PETG was used to print all parts. The potentiometer mounting plate requires supports on the dished part that holds the potentiometer.  The Cover has supports on the portion of the opening that accepts the 12V plug.  No other parts required supports for printing.
