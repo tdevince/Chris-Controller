@@ -30,7 +30,7 @@ Since the paper that describes the hardware is a non-commercial license (CC BY-N
 portion of this project is non-commercial. However, the software code developed for this project
 is licensed under GNU General Pulbic License
 
-Repository Files:
+## Repository Files:
 
 Files necessary for 3D printing are in the folder "3D Print Files".  The Fusion360 files used to create these files are in the folder titled "Fusion360"
 
@@ -40,7 +40,7 @@ The circuit was designed using KiCad 9.0.  The schematic as well as the PCB file
 
 Two other repositories are used for the code used to program the controller and the remote.  The links to these repositories are in the folders "Controller" and "Remote".
 
-Building the Controller:
+## Building the Controller:
 
 To build the Chris Controller, you will need to make the controller as well as the remote control.  The Controller consists of 3 3D printed gears, a mounting plate for the stepper motor and potentiometer and a base and cover.  The Fusion 360 files used to create the files for printing are included.  The parts were output to *stl files that were imported into PrusaSlicer.  The 3D input and output files are included in the Controller Directory.  PETG was used to print all parts. The potentiometer mounting plate requires supports on the dished part that holds the potentiometer.  The Cover has supports on the portion of the opening that accepts the 12V plug.  No other parts required supports for printing.
 The stepper motor used is the 28BYJ-48 stepper motor.  This motor is found in 12V and 5V versions.  This project used the 12V version.  The potentiometer uses is the Bourns 3590-2-103L 10k ohm multiturn potentiometer.  The output jack supplied with the stepper motor is the JST 5 pin XH series connector.  The mating male connector is used on the PCB.  The potentiometer is connected to the PCB using the 2 pin JST connectors (XH series as well).  
@@ -50,7 +50,7 @@ The PCB uses an ESP32-S2-Solo-2 module for a microcontroller.  This module has t
 The schematic and gerber files to order the PCB are provided in the KiCad directory.  The BOM used to order the PCB’s do not include the ESP32 module or any through hole parts (sockets, etc.) since these are easily added.  The ESP32 module is relatively inexpensive, but when supplied as a separate module, and not part of development kit, it must first be programmed prior to soldering to the PCB.  There is no way to update the firmware of the ESP32 once installed, other than Over-The -Air updates.  Therefore, the first loading of the firmware requires a wired connection to a PC.  Using a development board with flexipins allows for easy programming of the ESP32 module before installing.  If such a board is not available (I made my own for such purposes), the schematic and PCB can be redesigned to use a ESP32-S2-DevkitC-1.  This will increase the footprint of the PCB, but can be made functional.
 The power supply used is a standard 12VDC adapter.  The stepper and ULN2003A take 12V inputs, the ESP32 is supplied with 3.3V from a buck switching regulator.  A switching regulator was chosen for its efficiency.  If a linear regulator is used, accommodation for heat dissipation must be considered since dropping from 12V to 3.3V will involve significant heat on linear regulators.
 
-Building the Remote:
+## Building the Remote:
 
 The remote 3d files print a total of 7 items.  These are:
 	Remote Cover
