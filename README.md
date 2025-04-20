@@ -40,3 +40,37 @@ The PCB uses an ESP32-S2-Solo-2 module for a microcontroller.  This module has t
 The schematic and gerber files to order the PCB are provided in the KiCad directory.  The BOM used to order the PCB’s do not include the ESP32 module or any through hole parts (sockets, etc.) since these are easily added.  The ESP32 module is relatively inexpensive, but when supplied as a separate module, and not part of development kit, it must first be programmed prior to soldering to the PCB.  There is no way to update the firmware of the ESP32 once installed, other than Over-The -Air updates.  Therefore, the first loading of the firmware requires a wired connection to a PC.  Using a development board with flexipins allows for easy programming of the ESP32 module before installing.  If such a board is not available (I made my own for such purposes), the schematic and PCB can be redesigned to use a ESP32-S2-DevkitC-1.  This will increase the footprint of the PCB, but can be made functional.
 The power supply used is a standard 12VDC adapter.  The stepper and ULN2003A take 12V inputs, the ESP32 is supplied with 3.3V from a buck switching regulator.  A switching regulator was chosen for its efficiency.  If a linear regulator is used, accommodation for heat dissipation must be considered since dropping from 12V to 3.3V will involve significant heat on linear regulators.
 
+Building the Remote:
+
+The remote 3d files print a total of 7 items.  These are:
+	Remote Cover
+	Remote Base
+	Up Button
+	Down Button
+	Battery Box
+	Battery Box Cover
+
+The Remote Cover and the Battery Box print as two items each if you want to print text(on the cover) and battery icons (on the battery box).  The text and icons are two different parts in the Fusion360 files.
+
+To print different colors on the same layer in Prusaslicer, first go to “General” settings and change the number of extruders to 2.  Then on the Custom Code, enter “M600” for tool change.  This will cause the printer to pause and prompt to load a new color.  This method works well when only one or two layers need a different color inserted (such as text or battery icons).  When using this method, it is best if the text/icon part is part #2.  This way the rest of the layer is printed first, and success rate is higher in getting the text to look good without lifting or other print errors.
+
+The *.gcode files are set up to print the multicolor as described above.  The cover is designed to have a 1mm thick acrylic sheet as a display window to protect the OLED screen.  The window cover should be cut and fit to the space in the cover before gluing.  Use a 5 minute epoxy rather than a CynoAcrylic (CA, Superglue, etc.) type of glue.  The CA glues will tend to fog the acrylic sheet.
+
+The battery box uses a total of 8 keystone style 5209 terminal clips.  The clips are inserted into the box, and the tabs then bent outward 90 degrees.  The tabs then may be soldered to provide the 4 cells in series (i.e. positive to negative with the first and last tabs being the +6V and -0V tabs).
+
+The positive tab is then routed to the slide switch (the cover is designed to use the CW Industries model G-107-SI-0005 slide switch.  The output of the slide switch, with the negative terminal of the battery box are then connected to the PCB using a JST XH series two pin connector.
+
+Once the battery box is soldered, it may then be glued into the cover.  There are indexing tabs designed into the battery cover for the battery box.  
+
+The two buttons (Up and Down) are also printed in PETG, I used red to offset it from the urban grey I used for the remainder of the remote.  These buttons merely fit inside the cover and are held into position by the PCB and push buttons.  The push buttons used are similar to https://www.amazon.com/Tactile-Switch-Momentary-Arduino-6x6x5mm/dp/B06XRH6GNX
+
+Only two buttons are exposed by to the push buttons that are printed (the up and down buttons).  The calibration button is accessible using a paper clip through the small hole in the upper left of the remote cover.  The fourth button of the PCB is for OTA updates and is not accessible with the cover in place.
+
+The remote uses a 1.3” OLED monochrome I2C display.  Note the order of the 4 contacts on the PCB to ensure that the one you are using will work, if not a redesign of the PCB may be necessary so that SDL, SCL, VCC and GND align.  The OLED uses the SH1106 chip, thus the library for the remote codes is built around this display.
+
+Similar to the controller, the remote uses an ESP32-S2-Solo-2 bare module (https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S2-SOLO-2-N4/16591892?gclid=1df37c397d151f5e88d9143c09d1c049&gclsrc=3p.ds&&utm_adgroup=General&utm_source=bing&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_RLSA_Cart&utm_term=digikey&utm_content=General&utm_id=bi_cmp-384476623_adg-1302921504343591_ad-81432677981980_dat-2333232393680003:loc-190_dev-c_ext-_prd-&msclkid=1df37c397d151f5e88d9143c09d1c049) .  
+
+The module will need to be programmed before soldering to the PCB, so that OTA updates are possible.  The advantage of using the bare module rather than development board is that it drastically reduces the footprint on the PCB (thus a smaller remote) as well as reducing the vampire load when the module is put to sleep.  Most development boards use a linear voltage regulator, which will consume much more battery power than the switching regulator used in this design.
+
+
+
