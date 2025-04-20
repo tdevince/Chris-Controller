@@ -32,13 +32,11 @@ is licensed under GNU General Pulbic License
 
 ## Repository Files:
 
-Files necessary for 3D printing are in the folder "3D Print Files".  The Fusion360 files used to create these files are in the folder titled "Fusion360"
-
-An instruction manual that describes the operation and use of the system is included as a *.pdf file in the "Instruciton Manual" folder.  
-
-The circuit was designed using KiCad 9.0.  The schematic as well as the PCB files are in the folder "KiCad 9.0 fiies".  This folder also has the gerber files, position files and BOM files necessary for ordering the PCB's from JLCPCB.com.
-
-Two other repositories are used for the code used to program the controller and the remote.  The links to these repositories are in the folders "Controller" and "Remote".
+* Files necessary for 3D printing are in the folder "3D Print Files".
+* The Fusion360 files used to create these files are in the folder titled "Fusion360"
+* An instruction manual that describes the operation and use of the system is included as a *.pdf file in the "Instruciton Manual" folder.  
+* The circuit was designed using KiCad 9.0.  The schematic as well as the PCB files are in the folder "KiCad 9.0 fiies".  This folder also has the gerber files, position files and BOM files necessary for ordering the PCB's from JLCPCB.com.
+* Two other repositories are used for the code used to program the controller and the remote.  The links to these repositories are in the folders "Controller" and "Remote".
 
 ## Building the Controller:
 
