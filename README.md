@@ -1,6 +1,6 @@
 # Chris-Controller
 
-[![Watch the video](https://github.com/tdevince/Chris-Controller/blob/main/media/Thumb.jpg)](URL_TO_YOUR_VIDEO)
+[![Watch the video](https://github.com/tdevince/Chris-Controller/blob/main/media/Thumb.jpg)](https://private-user-images.githubusercontent.com/97317875/435509045-00b4797d-aa02-43c4-9b9c-edfc26d2068e.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxOTc4OTksIm5iZiI6MTc0NTE5NzU5OSwicGF0aCI6Ii85NzMxNzg3NS80MzU1MDkwNDUtMDBiNDc5N2QtYWEwMi00M2M0LTliOWMtZWRmYzI2ZDIwNjhlLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDIxVDAxMDYzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJmYWJlMGNhM2JmNDQzZDk5YWMxNTI0YjNhZTNlNTE5ZTFhZDBlNDViOGY3ZTc2ZDY3YzNkNTc0ZjY5ZTM0MTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.5TFY-foABcXsPSkUT4TwTE6B_hcxhnk4HnvymQrl-RE)
 
 This project is dedicated to my sister who is forced to live with a stationary oxygen concentrator 
 in her house. The unit is extremely loud and not placed in a part of the house she wants to sleep 
