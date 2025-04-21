@@ -1,4 +1,7 @@
 # Chris-Controller
+
+![Video](https://private-user-images.githubusercontent.com/97317875/435509045-00b4797d-aa02-43c4-9b9c-edfc26d2068e.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUxOTcwNTgsIm5iZiI6MTc0NTE5Njc1OCwicGF0aCI6Ii85NzMxNzg3NS80MzU1MDkwNDUtMDBiNDc5N2QtYWEwMi00M2M0LTliOWMtZWRmYzI2ZDIwNjhlLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDIxVDAwNTIzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU5M2RkYzFhNzdhNDIxNTBjMDlhZDk3MGM5NTQ3NDE0ZTE3MDQzNjUwMTJhNTI0YzQ1ZWY2NGY4ZWQ4NmYyNWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.N00mRud7ulB8T5u4YU22ZeHuQB08vV_eXykSxYpsEj0)
+
 This project is dedicated to my sister who is forced to live with a stationary oxygen concentrator 
 in her house. The unit is extremely loud and not placed in a part of the house she wants to sleep 
 or be in.  However, to change the oxygen flowrate, it is necessary for someone to do it at the machine.
