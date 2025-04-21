@@ -1,5 +1,7 @@
 # Chris-Controller
 
+[![Watch the video](https://github.com/tdevince/Chris-Controller/blob/main/media/Thumb.jpg)](URL_TO_YOUR_VIDEO)
+
 This project is dedicated to my sister who is forced to live with a stationary oxygen concentrator 
 in her house. The unit is extremely loud and not placed in a part of the house she wants to sleep 
 or be in.  However, to change the oxygen flowrate, it is necessary for someone to do it at the machine.
